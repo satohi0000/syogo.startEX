@@ -1,0 +1,67 @@
+@use "../global" as *;
+
+.p-article {
+  &__mychallenge {
+    h2 {
+      text-align: center;
+      margin: 55px 0 0 27px;
+      @include tab {
+        margin: 55px 0 0 0px;
+      }
+    }
+    button {
+      margin: 0px auto;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      margin-top: 59px;
+    }
+    &-3colum {
+      display: flex;
+      @include tab {
+        flex-direction: column;
+      }
+
+      &1 {
+        display: flex;
+        margin: 47px 0 0 20px;
+        @include tab {
+          margin: 47px 0 0 0;
+        }
+        justify-content: space-between;
+        flex-direction: column;
+        width: 31%;
+        @include tab {
+          width: 100%;
+        }
+        border: 1px solid #707070;
+        h3 {
+          padding: 23px 10px 32px 13px;
+        }
+        time {
+          padding-left: 13px;
+          margin-top: auto;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  &__just {
+    margin-top: 87px;
+    background-image: url(../画像/img/fv.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 455px;
+    width: 100%;
+    h4 {
+      text-align: center;
+      padding-top: 57px;
+      padding-left: 26px;
+    }
+    p {
+      padding: 40px 0 0 33px;
+      line-height: 1.75;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}

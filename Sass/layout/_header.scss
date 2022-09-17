@@ -1,0 +1,19 @@
+@use "../global" as *;
+
+.l-header {
+  width: 100%;
+  background-color: $white;
+  img {
+    width: 50%;
+    margin-left: 7%;
+  }
+  &-nav {
+    margin: auto 0;
+  }
+  &__inner {
+    max-width: $inner1;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -3,17 +3,31 @@
 .l-header {
   width: 100%;
   background-color: $white;
-  img {
-    width: 50%;
-    margin-left: 7%;
-  }
-  &-nav {
-    margin: auto 0;
-  }
   &__inner {
     max-width: $inner1;
-    margin: 20px auto;
+    margin: 19px auto;
     display: flex;
     justify-content: space-between;
+    img {
+      width: 50%;
+      margin: 10px 4%;
+    }
+  }
+  &__connect {
+    margin-top: 12px;
+    margin-right: 20px;
+    p {
+      font-size: 1.4rem;
+      margin-right: 5px;
+    }
+    &-tel {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 8px;
+      img {
+        width: 7%;
+        margin: 0 5% 0 0;
+      }
+    }
   }
 }

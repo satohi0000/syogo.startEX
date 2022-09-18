@@ -1,18 +1,26 @@
 @use "../global" as *;
 
 .p-fv {
-  position: relative;
-  height: 550px;
+  height: 942px;
 
   background-image: url(../画像/img/fv.png);
   background-size: cover;
   background-repeat: no-repeat;
-
   h1 {
-    margin: auto 0px;
-    padding: 250px 0px 5px 30px;
-    text-align: center;
+    &:nth-of-type(1) {
+      position: absolute;
+      top: 10.5%;
+      left: 20.5%;
+      padding: 25px 32px 92px 37px;
+    }
+    &:nth-of-type(2) {
+      position: absolute;
+      top: 10.5%;
+      left: 11%;
+      padding: 25px 33px 59px 37px;
+    }
   }
+
   h5 {
     text-align: center;
     color: white;

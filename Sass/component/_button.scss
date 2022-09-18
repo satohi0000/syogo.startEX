@@ -1,29 +1,18 @@
 @use "../global" as *;
 
 .c-button {
-  color: black;
-  background-color: white;
-  width: 313px;
-  padding: 0 0px 0 0px;
-  line-height: 39px;
-  font-size: 1.8rem;
+  color: $white;
+  background-color: #444444;
+  width: 82px;
+  margin: auto 0;
+  margin-right: 34px;
+  line-height: 1.75;
+  font-size: 1.2rem;
   display: block;
   text-align: center;
   font-weight: bold;
   text-align: center;
   cursor: pointer;
-  &2 {
-    color: white;
-    background-color: #83032a;
-    width: 210px;
-    height: 14%;
-    font-size: 1.6rem;
-    font-weight: bold;
-    margin-left: 50%;
-    transform: translateX(-95px);
-    margin-top: 35px;
-    cursor: pointer;
-  }
 }
 
 #c-BTN1 {

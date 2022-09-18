@@ -1,0 +1,15 @@
+@use "../global" as *;
+
+.u-fs {
+  &g {
+    color: $green;
+  }
+  &ug {
+    text-decoration: underline;
+    text-decoration-color: $green;
+    &2 {
+      border-bottom: 3px solid $green;
+      font-size: 1.6rem;
+    }
+  }
+}

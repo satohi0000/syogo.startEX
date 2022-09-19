@@ -58,15 +58,11 @@ body h5 {
   font-family: "Noto Sans JP", sans-serif;
   color: white;
 }
-body time {
-  font-size: 1.3rem;
-  line-height: 1.3846153846;
-  letter-spacing: 0em;
-}
 body p {
   font-size: 1.6rem;
   line-height: 2;
   letter-spacing: 0em;
+  font-family: "Noto Sans JP", sans-serif;
 }
 body dt {
   font-size: 1.3rem;
@@ -80,12 +76,6 @@ body dd {
   line-height: 1;
   letter-spacing: 0.07em;
   font-family: "Noto Sans JP", sans-serif;
-}
-body label {
-  font-size: 1.6rem;
-  line-height: 5.875;
-  letter-spacing: 0.004em;
-  line-height: 1;
 }
 
 html {

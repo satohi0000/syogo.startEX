@@ -2,6 +2,7 @@
 
 body {
   background-color: $background;
+  color: $black;
   list-style: none;
   img {
     width: 100%;
@@ -13,7 +14,7 @@ body {
     font-family: $ff1;
   }
   a {
-    color: black;
+    color: $black;
   }
   h1 {
     @include f_style2(2.8, 34, 230);

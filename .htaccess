@@ -1,0 +1,4 @@
+AuthUserFile "/home/xs969385/xs969385.xsrv.jp"
+AuthName "Enter password"
+AuthType BASIC
+require valid-user

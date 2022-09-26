@@ -19,10 +19,13 @@
       @include pc2 {
         left: 242px;
       }
+      @include tab {
+        left: 205px;
+      }
       @include sp {
         font-size: 1.8rem;
         top: 686px;
-        left: 200px;
+        left: 150px;
         height: 350px;
         padding: 15px;
       }
